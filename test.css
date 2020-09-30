@@ -93,22 +93,28 @@ header{
     width: 15%;
     margin-top: -6.5%;
 }
+.description{
+	position: relative;
+	margin: 0 auto;
+	width: 45%;
+}
 .description h1 {
     font-family: Helvetica;
     font-weight: 500;
     font-size: 25.55px;
     color: #333333;
-    text-align: center;
-    margin-top: -47px;
-    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .description h2 {
     font-family: Helvetica;
     font-weight: 300;
     font-size: 14px;
     color: #333333;
-    text-align: center;
-    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .description text {
     position: relative;
@@ -125,7 +131,6 @@ header{
 ------------------*/
 .options {
     position: relative;
-    top: 0px;
     margin: 0 auto;
 }
 .studio {
