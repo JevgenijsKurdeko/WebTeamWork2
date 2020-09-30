@@ -2,6 +2,9 @@ body {
     background-color: rgb(192, 192, 192);
 	height: 1600px;
 }
+/*-----------------
+---Header Style----
+-----------------*/
 header{
 	background: url(img/bg_header.svg);
 	background-size: cover;
@@ -62,6 +65,9 @@ header{
     margin: 0 auto;
     margin-top: 52px;    
 }
+/*---------------------
+---Main block Style----
+---------------------*/
 .content {
     position: relative;
     background: rgb(255, 255, 255);
@@ -74,6 +80,9 @@ header{
     margin-top: -3%;
 	min-width: 550px;
 }
+/*-----------------
+---Avatar Style----
+-----------------*/
 .avatar {
     display: flex;
     justify-content: center;
@@ -111,6 +120,9 @@ header{
     text-align: center;
     margin: 0 auto;
 }
+/*------------------
+---Options Style----
+------------------*/
 .options {
     position: relative;
     top: 0px;
@@ -186,6 +198,9 @@ header{
     margin: 0 auto;
     top: 72px;
 }
+/*------------------
+---Gallary Style----
+------------------*/
 .content-gallary{
     position: relative;
     height: 621px;
@@ -207,6 +222,9 @@ header{
     top: 381px;
     left: 292px;
 }
+/*-----------------
+---Footer Style----
+-----------------*/
 footer{
     height: 17px;
     width: 80%;
