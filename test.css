@@ -66,6 +66,11 @@ header{
     margin: 0 auto;
     margin-top: 52px;    
 }
+.toggle {
+    color: white;
+    display: none;
+    margin: 30px;
+}
 /*---------------------
 ---Main block Style----
 ---------------------*/
@@ -123,7 +128,6 @@ header{
     font-weight: 300;
     font-size: 14px;
     color: #999999;
-    width: 635px;
     text-align: center;
     margin: 0 auto;
 }
@@ -290,3 +294,12 @@ footer{
     padding: 0;
     margin: 0;
 }
+@media only screen and (max-width: 900px) {
+    .nav-header {
+        display: none;
+    }
+    .toggle {
+        display: inline;
+        float: right;
+    }
+  }
