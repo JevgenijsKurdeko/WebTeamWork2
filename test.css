@@ -1,6 +1,5 @@
 body {
     background-color: rgb(192, 192, 192);
-	height: 1600px;
 }
 /*-----------------
 ---Header Style----
@@ -23,6 +22,8 @@ header{
 	min-width: 550px;
 }
 .parag1{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
     float: left;
     margin-top: 25px;
     margin-left: 10px;
@@ -90,7 +91,7 @@ header{
 }
 .avatar img {
     display: inline-block;
-    width: 15%;
+    width: 13%;
     margin-top: -6.5%;
 }
 .description{
@@ -116,7 +117,7 @@ header{
     justify-content: center;
     align-items: center;
 }
-.description text {
+.description p {
     position: relative;
     font-family: Helvetica;
     font-weight: 300;
@@ -150,19 +151,17 @@ header{
 .studio img {
     position: relative;
     top: 25px;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin: 0 auto;
 
 }
-.studio text {
-    position: relative;
+.studio p {
     font-family: Helvetica;
     font-weight: 500;
     font-size: 12px;
     color: #FFFFFF;
-    top: 60px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    margin-top: 40px;
 }
 .work {
     position: relative;
@@ -174,18 +173,18 @@ header{
     margin-right: 2px;
 }
 .work img {
+    display: block;
     position: relative;
     margin: 0 auto;
     top: 25px;
 }
-.work text {
-    position: relative;
+.work p {
     font-family: Helvetica;
     font-weight: 500;
     font-size: 12px;
     color: #555555;
-    margin: 0 auto;
-    top: 72px;
+    text-align: center;
+    margin-top: 40px;
 }
 .favorite {
     position: relative;
@@ -196,18 +195,18 @@ header{
     float: left;
 }
 .favorite img {
+    display: block;
     position: relative;
     margin: 0 auto;
     top: 25px;
 }
-.favorite text {
-    position: relative;
+.favorite p {
     font-family: Helvetica;
     font-weight: 500;
     font-size: 12px;
     color: #555555;
-    margin: 0 auto;
-    top: 72px;
+    text-align: center;
+    margin-top: 40px;
 }
 /*------------------
 ---Gallary Style----
@@ -216,23 +215,26 @@ header{
     position: relative;
     height: 621px;
     width: 555px;
-    padding: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 52px;
-    
+    margin-top: 50px;
 }
-.content-gallary img{
-    position: absolute;
+.content-gallary img {
+    width: 48%;
+    margin-left: 15px;
 }
 .photo2{
+    position: relative;
+    top: -200px;
     left: 292px;
 }
 .photo3{
-    top: 227px;
+    position: relative;
+    top: -330px;
 }
 .photo4{
-    top: 381px;
+    position: relative;
+    top: -550px;
     left: 292px;
 }
 /*-----------------
